@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f3f5f8">
+<title>دليل أوامر Red Hat Linux 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="top">
+  <button id="menu" type="button" aria-label="إغلاق الفهرس" aria-controls="side" aria-expanded="true">الفهرس</button>
+  <label class="term"><b>$</b><input id="q" type="search" placeholder="ابحث عن أمر أو كلمة، مثل: chmod أو الجدار" autocomplete="off" aria-label="البحث في الدليل"><span id="cnt" aria-live="polite"></span></label>
+  <button id="theme" type="button" aria-label="تبديل المظهر">المظهر</button>
+</div>
+<div class="app" id="app">
+  <nav class="side" id="side" aria-label="فهرس الدليل">
+    <div class="side-head"><strong>فهرس الدليل</strong><button type="button" id="closeMenu" class="toc-close" aria-label="إغلاق الفهرس">إغلاق ✕</button></div>
+    <div id="tocLinks"></div>
+  </nav>
+  <main>
+    <div class="hero"><h1>دليل أوامر <span>Red Hat Linux</span></h1><p>المرجع السريع والشرح العملي التفصيلي — إصدار 2026</p></div>
+    <div class="intro">استخدم مربع البحث للوصول السريع إلى أي أمر، واضغط على أي أمر داخل الجدول لنسخه. قد يختلف توفر بعض الأدوات حسب إصدار RHEL والمستودعات المفعّلة. راجع أثر الأمر قبل استخدام صلاحيات المدير أو تنفيذ تغييرات على خادم إنتاج.</div>
+    <div id="content"></div>
+    <p class="empty" id="empty">لا توجد نتائج مطابقة. جرّب كلمة أقصر أو اسم الأمر فقط.</p>
+    <section class="notes" id="generalNotes"><h3>ملاحظات عامة قبل استخدام الأوامر</h3><ol><li>هذا الدليل موجه إلى Linux وRed Hat Enterprise Linux (RHEL)، وقد تختلف أسماء الحزم وتوفر الأدوات بين الإصدارات.</li><li>الأوامر الإدارية قد تحتاج إلى <code>sudo</code>، إذا كان حسابك مخولًا بذلك.</li><li>لا تنفذ أوامر الحذف أو تعديل الجدار الناري أو الصلاحيات أو الأقراص على خادم إنتاج قبل فهم أثرها والتأكد من وجود نسخة احتياطية.</li><li>استخدم صفحات <code>man</code> وخيار <code>--help</code> لمعرفة تفاصيل الإصدار المثبت.</li></ol></section>
+  </main>
+</div>
+<button type="button" class="toc-backdrop" id="tocBackdrop" aria-label="إغلاق الفهرس"></button>
+<div class="toast" id="toast" role="status" aria-live="polite">تم النسخ</div>
+<script src="script.js" defer></script>
+</body>
+</html>

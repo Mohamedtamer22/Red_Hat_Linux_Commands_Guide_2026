@@ -1,2 +1,144 @@
-# Red_Hat_Linux_Commands_Guide_2026
-A responsive Arabic reference and hands-on guide to Red Hat Linux commands, with searchable topics, collapsible navigation, dark mode, and copyable examples. Built with HTML, CSS, and JavaScript; ready for GitHub Pages.
+# 🐧 Red Hat Linux Commands Guide 2026
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-Red_Hat-red?style=for-the-badge&logo=redhat&logoColor=white" alt="Red Hat Linux">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Responsive-Design-16A34A?style=for-the-badge" alt="Responsive Design">
+</p>
+
+<p align="center">
+  <strong>دليل عربي تفاعلي لتعلم أوامر Red Hat Linux وفهمها وتطبيقها عمليًا.</strong>
+</p>
+
+---
+
+## 📖 نبذة عن المشروع
+
+**Red Hat Linux Commands Guide 2026** هو مشروع تعليمي يهدف إلى مساعدة المبتدئين والمتعلمين في مجال Linux على فهم أوامر الطرفية (Terminal)، ومعرفة استخداماتها، والتدرب على تنفيذها من خلال أمثلة عملية واضحة.
+
+يجمع المشروع بين المرجع السريع للأوامر والشرح التعليمي، ضمن واجهة عربية تدعم اتجاه الكتابة من اليمين إلى اليسار (RTL)، مع تصميم متجاوب يناسب الكمبيوتر والتابلت والهواتف المحمولة.
+
+## ✨ المميزات الرئيسية
+
+- 🐧 **مرجع لأوامر Linux:** التنقل وإدارة الملفات والمجلدات والمستخدمين والصلاحيات.
+- 📦 **إدارة الحزم:** أمثلة على `dnf` و`rpm` و`yum`.
+- ⚙️ **إدارة النظام:** التعامل مع الخدمات والعمليات والسجلات باستخدام `systemctl` و`journalctl`.
+- 🌐 **أوامر الشبكات:** التعرف على `ip` و`ss` و`nmcli` و`ping` و`curl`.
+- 🔐 **الأمان:** أساسيات الصلاحيات وSELinux وFirewalld وSSH.
+- 🗜️ **الأرشفة والضغط:** تطبيقات عملية على `tar` و`gzip` و`xz` و`zip`.
+- 🔎 **بحث تفاعلي:** الوصول إلى الأوامر والمعلومات باستخدام مربع البحث.
+- 📑 **فهرس قابل للفتح والإغلاق:** التنقل بين أقسام الدليل بسهولة.
+- 📱 **تصميم متجاوب:** واجهة مناسبة لمختلف أحجام الشاشات.
+- 🌙 **الوضع الداكن:** مظهر بديل أكثر راحة في الإضاءة المنخفضة.
+- 📋 **نسخ الأوامر:** نسخ أمثلة الأوامر بسرعة لاستخدامها في الطرفية.
+- 📚 **تمارين عملية:** أمثلة تساعد على فهم الأوامر وتطبيقها.
+
+## 🛠️ التقنيات المستخدمة
+
+| التقنية | الاستخدام |
+|---|---|
+| HTML5 | بناء هيكل صفحات الدليل |
+| CSS3 | التصميم والتنسيق والتجاوب مع الشاشات |
+| JavaScript | البحث والفهرس والتفاعلات ونسخ الأوامر |
+| Google Fonts | خطوط عربية وخطوط برمجية لعرض الأوامر |
+
+## 📂 هيكل المشروع
+
+```text
+Red_Hat_Linux_Commands_Guide_2026/
+│
+├── index.html    # هيكل الصفحة ومحتوى الدليل
+├── style.css     # التنسيقات والتصميم المتجاوب
+├── script.js     # البحث والفهرس والتفاعلات
+└── README.md     # توثيق المشروع
+```
+
+## 🚀 تشغيل المشروع محليًا
+
+لا يحتاج المشروع إلى تثبيت إطار عمل أو إعداد خادم خلفي.
+
+1. حمّل ملفات المشروع أو استنسخ المستودع.
+2. تأكد من وجود الملفات الثلاثة في المجلد نفسه.
+3. افتح `index.html` باستخدام متصفح حديث.
+4. استخدم مربع البحث والفهرس للوصول إلى الموضوع الذي تحتاجه.
+
+يمكنك أيضًا فتح المجلد في Visual Studio Code وتعديل الملفات حسب احتياجاتك.
+
+## 🌐 النشر باستخدام GitHub Pages
+
+يمكن نشر المشروع مجانًا عبر GitHub Pages باتباع الخطوات التالية:
+
+1. ارفع `index.html` و`style.css` و`script.js` إلى المستودع.
+2. افتح **Settings** داخل المستودع.
+3. اختر **Pages** من القائمة الجانبية.
+4. ضمن **Build and deployment** اختر `Deploy from a branch`.
+5. اختر الفرع `main` والمجلد `/ (root)`.
+6. اضغط **Save** وانتظر اكتمال عملية النشر.
+
+بعد نجاح النشر، سيظهر رابط الموقع داخل صفحة إعدادات GitHub Pages.
+
+## 💻 أمثلة على الأوامر
+
+### عرض الملفات
+
+```bash
+pwd
+ls -lah
+cd /etc
+```
+
+### إنشاء الملفات والمجلدات
+
+```bash
+mkdir -p ~/linux-lab/project
+touch ~/linux-lab/project/notes.txt
+```
+
+### البحث داخل الملفات
+
+```bash
+grep -in "error" app.log
+find /etc -name "*.conf"
+```
+
+### إنشاء أرشيف مضغوط
+
+```bash
+tar -czf ~/backup.tar.gz -C ~/linux-lab project
+```
+
+> ⚠️ **تنبيه:** نفّذ الأوامر داخل بيئة اختبار مناسبة قبل استخدامها على خادم فعلي. راجع المسارات والصلاحيات، وتأكد من فهم تأثير أوامر الحذف وتعديل الأقراص والشبكات والجدار الناري.
+
+## 🎯 أهداف المشروع
+
+- تسهيل تعلم أوامر Red Hat Linux باللغة العربية.
+- توفير مرجع سريع للأوامر الشائعة.
+- ربط شرح الأوامر بالتطبيق العملي.
+- مساعدة المتعلمين على تطوير مهارات Linux وإدارة الأنظمة.
+- توفير واجهة بسيطة يمكن تطويرها وإضافة محتوى جديد إليها.
+
+## 🔮 أفكار للتطوير مستقبلًا
+
+- إضافة أمثلة وتمارين تفاعلية أكثر.
+- توفير نظام لتصنيف الأوامر حسب مستوى الصعوبة.
+- إضافة ميزة حفظ الأوامر المفضلة.
+- تحسين البحث وإضافة عوامل تصفية.
+- توسيع المحتوى المتعلق بإصدارات RHEL المختلفة.
+
+## 🤝 المساهمة
+
+المساهمات والأفكار التي تساعد على تحسين المحتوى وتجربة الاستخدام مرحب بها.
+
+يمكنك اقتراح تحسينات على الشرح أو التصميم أو إضافة أمثلة عملية جديدة من خلال Issues أو Pull Requests في GitHub.
+
+---
+
+<p align="center">
+  🐧 <strong>Learn Linux. Practice Commands. Build Your Skills.</strong>
+</p>
+
+<p align="center">
+  <sub>Red Hat Linux Commands Guide 2026 — Arabic Learning Project</sub>
+</p>
